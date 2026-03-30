@@ -1,16 +1,55 @@
 Commands in Base **R**.
-### `dir():`
-* show current  working directory
-### `lapply():`
-* creates a list and applies anything we want to all elements of the list
-### `library():`
-* loads in library
+### `dir()`
+* Show current  working directory.
+### `lapply()`
+* Creates a list and applies anything we want to all elements of the list.
+### `library()`
+* Loads in library.
 ### `glimpse()`
-shows some basic data about the dataset
+Shows some basic data about the dataset.
 ### `summary()`
 Gives you a quick overview of the contents of a variable.
+### `head()`
+Shows you the first observations of a dataset.
+### `tail()`
+Shows the last observation of a dataset.
+### `str()`
+Shows you the strucure of given dataset.
+### `data.frame()`
+Let's you costruct your own DataFrame, every column will be the same lenght.
+**Usage Example:**
+```
+v1 <- c(1, 2, 3)
+v2 <- c("a", "b", "c")
+data.frame(v1, v2)
+```
+### `order()`
+Let's you sort according to a certain variable.
+**Usage example:**
+```
+a <- c(100, 10, 1000)
+order(a)
+[1] 2 1 3
+a[order(a)]
+[1] 10 100 1000
+```
+
+### `subset()`
+Let's You create a subset of your database with specific conditions.
+```
+subset(my_df, subset = some_condition)
+subset(my_df, subset = column_name < 1)
+```
+### `list()`
+A vector that let's you hold different datatypes in one place.
+**Usage example:**
+```
+my_list <- list(name_1 = int, name_2 = char, 
+				name_3 = df)
+my_list$name_3 # selects only df
+```
 ### `c()`
-initialize a vector in R. 
+Initialize a vector in R. 
 #### additional info:
 1. If you add v1 to v2 it will add like in numpy i mean it will do `new_v[i] = v1[i] + v2[i]` for each i. The same goes for any logical operation like: "-, *, ^, >, ="
 ```
@@ -64,9 +103,9 @@ my_matrix <- matrix(vector, nrow = 3, byrow = TRUE, dimnames = list)
 sum_matrix <- rowSums(my_matrix)
 all_matrix <- cbind(my_matrix, sum_matrix)
 ```
-### `ls():`
+### `ls()`
 Let's you check the contents of your workspace.
-### `factor():`
+### `factor()`
 You use this command to initialize factor factor is basically is our way of saying to or this variable will have a limited number of options f.e Sex: Male or Female.
 **Usage Example:**
 ```
@@ -75,7 +114,7 @@ factor_temperature_vector <- factor(temperature_vector, order = TRUE, levels = c
 factor_temperature_vector # Low < Medium < High
 ```
 by using order = TRUE and then providing levels = vector we basically initialize a way of camparing the variables with each other.
-### `levels():`
+### `levels()`
 Suppose we initialize a factor with c("M", "F") and we want to change it back to C("Male", "Female") thats what this is exactly for.
 **Usage Example**:
 ```
