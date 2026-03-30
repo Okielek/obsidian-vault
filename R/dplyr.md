@@ -7,6 +7,8 @@ dplyr syntax known as pipe operator.
 dataset %>%
 	dplyr_command
 ```
+### `glimpse()`
+Shows some basic data about the dataset.
 ### `select()`
 extracts only particular variables from the dataset.
 **Usage examples**
