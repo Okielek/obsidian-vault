@@ -7,3 +7,5 @@ paste("I am", age, "years old")
 ```
 ## `paste0()`
 Works just like [[11_String_Manipulation#^paste|paste()]]  but doesn't add spaces automatically it is superior. ^paste0
+## `tolower()`
+Converts string into lowercase string.

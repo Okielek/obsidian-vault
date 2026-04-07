@@ -14,3 +14,9 @@ my_f <- function(x, y, z){
 	return(x)
 }
 ```
+## `Anonymous functions`
+It's a concept of using a function without defining it. It's usefull for stuff like lapply() which needs a function to work.
+### Usage example
+```R
+names <- lapply(split_low, function(x){x[1]})
+```
