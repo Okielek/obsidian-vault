@@ -10,5 +10,12 @@ Shows you the strucure of given dataset.
 Prints the following value/string.
 ## `args()`
 Shows what arguments does the called function take. [[12_Functions#^function|Functions]]
-
-
+## `typeof()`
+Returns datatype of a specified element.
+## `is.type()`
+Checks whether something is a *specified type* return TRUE or FALSE.
+### Usage example
+```R
+is.numeric(5) # TRUE
+is.vector(5) # FALSE
+```

@@ -24,3 +24,10 @@ x <- c(TRUE, FALSE, TRUE)
 y <- c(TRUE, TRUE, FALSE)
 x && y # TRUE because only check x[1] & y[1]
 ```
+
+## `Identical()`
+checks whether two objects are **exactly the same in every detail**. It's all or nothing which means it either returns only TRUE or FALSE.
+**Usage example**
+```R
+identical(x, y) # TRUE or FALSE
+```

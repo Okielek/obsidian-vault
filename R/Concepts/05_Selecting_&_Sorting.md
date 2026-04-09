@@ -14,6 +14,20 @@ order(a)
 a[order(a)]
 [1] 10 100 1000
 ```
+## `sort()`
+Sorts the vector by default in ascending order.
+### Usage example
+```R
+sort(c(2, 3, 1)) # 1 2 3
+sort(c(2, 3, 1), decreasing = TRUE) # 3 2 1 
+```
+## `rev()`
+### Usage example
+Reverses the order of a vector.
+```R
+rev(c(3, 2, 1)) # 1 2 3
+```
+
 
 
 
