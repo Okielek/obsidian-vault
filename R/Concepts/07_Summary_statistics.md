@@ -16,7 +16,7 @@ my_matrix <- matrix(1:9, nrows = 3)
 sum_matrix <- rowSums(my_matrix)
 ```
 ## `sd()`
-Calculates [[Mathematics/Probabilty/01_Definitions#^standard-deviation|standard deviation]]
+Calculates [[01_Important_Definitions#^standard-deviation|standard deviation]]
 ## `abs()`
 Changes a value to an absolute value as in always >=0.
 ## `round()`
