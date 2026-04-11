@@ -9,7 +9,7 @@
 - `&` AND
 - `|` OR
 - `!` NOT
-### More info:
+### More info
 1. If any of these operators are used on a datatype that stores multiple entries then it preserves the structure wim: 
 ```r
 x <- c(1, 2, 3)

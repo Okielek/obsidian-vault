@@ -27,7 +27,12 @@ Reverses the order of a vector.
 ```R
 rev(c(3, 2, 1)) # 1 2 3
 ```
-
-
+## `which()`
+**Returns indices of TRUE values** in a logical vector.
+### Usage example
+```R
+x <- c(10, 20, 30, 40)
+which(x > 25) # [1] 3 4
+```
 
 

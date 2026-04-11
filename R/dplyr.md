@@ -39,13 +39,13 @@ dataset %>%
 3. **matches()** select columns with specific patter
 
 ### `arrange()`
-Sorts your data based on one or more variables.
+Sorts your data based on one or more variables. By default it arranges in ascending order.
 **Usage example**
 ```R
 dataset %>%
 	arrange(desc(variable))
 ```
-it arranges dataset by variable in descending order.
+thanks to specifying desc(var) it arranges dataset by variable in descending order.
 ### `filter()`
 Extract observation based on given conditions.
 **Usage example**
