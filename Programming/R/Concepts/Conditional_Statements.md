@@ -28,7 +28,7 @@ while(condition1){
 }
 ```
 ### More info/Compatible functions
-[[10_Conditional_Statements#break|break]] , [[10_Conditional_Statements#next|next]] 
+[[Conditional_Statements#break|break]] , [[Conditional_Statements#next|next]] 
 ## `for`
 will iterate over any datatype that is iterable. ^for
 ### Usage example
@@ -38,7 +38,7 @@ for(var in seq) {
 }
 ```
 ### More info/Compatible functions
-[[10_Conditional_Statements#break|break]] , [[10_Conditional_Statements#next|next]]
+[[Conditional_Statements#break|break]] , [[Conditional_Statements#next|next]]
 ## `break`
 Breaks any loop if called. ^break
 ### Usage example
