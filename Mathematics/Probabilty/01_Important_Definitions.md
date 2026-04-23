@@ -102,3 +102,82 @@ $$
 
 ### 🧠 Interpretacja
 $\limsup A_n$ oznacza, że zdarzenie $A_n$ zachodzi nieskończenie wiele razy.
+
+## `Prawo Wielkich Liczb (LLN)`
+
+Niech $X_1, X_2, \dots, X_n$ będą niezależnymi zmiennymi losowymi o tym samym rozkładzie, takich że
+$$
+\mathbb{E}[X_i] = \mu < \infty
+$$
+
+### Słabe prawo wielkich liczb (WLLN)
+
+Wtedy:
+$$
+\frac{X_1 + X_2 + \dots + X_n}{n} \xrightarrow{\mathbb{P}} \mu
+$$
+
+czyli:
+$$
+\overline{X}_n \xrightarrow{\mathbb{P}} \mu
+$$
+
+---
+
+### Silne prawo wielkich liczb (SLLN)
+
+Jeśli dodatkowo $\mathbb{E}|X_i| < \infty$, to:
+$$
+\frac{X_1 + X_2 + \dots + X_n}{n} \xrightarrow{p.n.} \mu
+$$
+
+czyli:
+$$
+\overline{X}_n \xrightarrow{p.n.} \mu
+$$
+
+---
+
+## 🔥 Intuicja
+
+Średnia z próby:
+$$
+\overline{X}_n = \frac{1}{n}\sum_{i=1}^n X_i
+$$
+
+zbiega do wartości oczekiwanej:
+$$
+\mu = \mathbb{E}[X]
+$$
+
+czyli:
+
+> częstość / średnia z danych $\to$ prawdziwa wartość
+
+---
+
+## 📌 Przykład zastosowania
+
+Rzucamy uczciwą monetą.  
+Niech $X_i$ oznacza wynik:
+- $1$ — orzeł
+- $0$ — reszka
+
+Wtedy:
+$$
+\mathbb{E}[X_i] = 0.5
+$$
+
+Średnia:
+$$
+\overline{X}_n = \frac{1}{n}\sum_{i=1}^n X_i
+$$
+
+Z prawa wielkich liczb:
+$$
+\overline{X}_n \xrightarrow{p.n.} 0.5
+$$
+
+czyli:
+
+> częstość orłów zbiega do $0.5$

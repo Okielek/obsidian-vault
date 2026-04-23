@@ -1,22 +1,26 @@
 # Rozkład $X$
 ## `Zbieżności zmiennych losowych`
 
-Niech $X_n$ $-$  ciąg zmiennych losowych na $(\Omega,\,\mathbb{F},\,\mathbb{P})$. Mówimy,  żę $X_n$ zbiega do $X$.
+Niech $X_n$ $-$ ciąg zmiennych losowych na $(\Omega,\,\mathbb{F},\,\mathbb{P})$. Mówimy, że $X_n$ zbiega do $X$.
+
 ### Zbieżność prawie na pewno $X_n\xrightarrow{p.n}X$
 $$
-\lim_{n\to \infty}X_n(\omega)=X(\omega)
+\mathbb{P}\left(\{\omega:\ \lim_{n\to\infty} X_n(\omega)=X(\omega)\}\right)=1
 $$
+
 ### Zbieżność według prawdopodobieństwa $X_n\xrightarrow{\mathbb{P}}X$
 $$
-\large \forall_{\varepsilon > 0} \quad \lim_{n \to \infty} P(|X_n - X| \ge \varepsilon) = 0
+\large \forall_{\varepsilon > 0} \quad \lim_{n \to \infty} P(|X_n - X| > \varepsilon) = 0
 $$
+
 ### Zbieżność według rozkładu $X_n\xrightarrow{d}X$
 $$
 \large \lim_{n \to \infty} F_{X_n}(x) = F_X(x) \quad \text{dla każdego punktu ciągłości } F_X
 $$
+
 ### Zbieżność w $L^p$ $X_n \xrightarrow{L^p} X$
 $$
-\large \lim_{n \to \infty} \mathbb{E}\big(|X_n - X|^p\big) = 0
+\large \lim_{n \to \infty} \mathbb{E}\big(|X_n - X|^p\big) = 0, \quad p \ge 1
 $$
 
 ---
@@ -73,6 +77,13 @@ $$
 F_y(t)=\mathbb{P}(X^2\le t)=\mathbb{P}(-\sqrt{t}\le X\le \sqrt{t})=\mathbb{P}(X\le \sqrt{t})-\mathbb{P}(X\ge \sqrt{t})
 $$
 W taki sposób możemy wyprowadzić dystrybuante dowolnego rozkładu $Y=g(X)$
+# Dystrybuanta $F_X(x)$
+## `Własności`
+1. **niemalejąca** $-$ $x_1 \le x_2 \rightarrow F_X(x_1)\le F_x(x_2)$
+2. $\lim_{x \to - \infty} F_x(x) = 0$ oraz $\lim_{x \to  \infty} F_x(x)=1$
+3. **Prawostronna ciągłość** $-$ $\lim_{h \to 0^+} F_x(x+h)=F(x)$
+4. $0\le F_x(x)\le 1$
+5. Skoki w punkcie to prawdopodobienstwo punktowe
 
 # Wartość oczekiwana $\mathbb{E}$
 ## `Definicja`
