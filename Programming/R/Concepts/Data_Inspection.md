@@ -9,7 +9,7 @@ Shows you the strucure of given dataset.
 ## `print()`
 Prints the following value/string.
 ## `args()`
-Shows what arguments does the called function take. [[12_Functions#^function|Functions]]
+Shows what arguments does the called function take. [[Functions#^function|Functions]]
 ## `typeof()`
 Returns datatype of a specified element.
 ## `is.type()`

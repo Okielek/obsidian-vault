@@ -1,0 +1,6 @@
+- [ ] vesktop $-$ for discord
+- [ ] T3 code $-$ AI (looks crazy)
+- [ ] some git emulator (looks crazy)
+- [ ] anki pretty sure just a better obsidian
+- [ ] raycast AI $-$ AI for desktop
+- [ ] ghosty $-$ terminal emulator

@@ -6,7 +6,7 @@ age <- 20
 paste("I am", age, "years old") # I am age years old
 ```
 ## `paste0()`
-Works just like [[11_String_Manipulation#^paste|paste()]]  but doesn't add spaces automatically it is superior. ^paste0
+Works just like [[String_Manipulation#^paste|paste()]]  but doesn't add spaces automatically it is superior. ^paste0
 ### Usage example
 ```r
 number <- 6969
