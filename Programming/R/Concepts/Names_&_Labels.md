@@ -1,3 +1,10 @@
+---
+tags:
+  - labels
+  - R
+  - programming
+---
+
 ### `names()`
 You can use it on a list to create dictionary. The dictionray works just like in python
 **Usage example:**

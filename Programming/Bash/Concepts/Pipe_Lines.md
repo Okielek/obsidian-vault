@@ -1,3 +1,9 @@
+---
+tags:
+  - bash
+  - pipe-lines
+  - programming
+---
 
 ### Concept
 A pipeline passes the output (stdout) of one command as input (stdin) to another.

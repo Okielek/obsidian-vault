@@ -1,3 +1,11 @@
+---
+tags:
+  - sorting
+  - R
+  - programming
+  - selecting
+---
+
 ### `subset()`
 Let's You create a subset of your database with specific conditions.
 ```r

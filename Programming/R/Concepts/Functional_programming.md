@@ -1,3 +1,10 @@
+---
+tags:
+  - programming
+  - R
+  - apply
+---
+
 ## `lapply()`
 Creates a list and applies anything we want to all elements of the list. **ALWAYS RETURNS A LIST**
 ### Usage example:

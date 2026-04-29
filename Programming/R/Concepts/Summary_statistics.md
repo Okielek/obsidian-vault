@@ -1,3 +1,11 @@
+---
+tags:
+  - summary
+  - R
+  - programming
+  - rounding
+---
+
 ## `mean()`
 returns the average of a vector.
 ## `length()`

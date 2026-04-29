@@ -1,3 +1,11 @@
+---
+tags:
+  - logic-symbols
+  - comparison
+  - R
+  - programming
+---
+
 ## Comparison operators
 - `==` equal
 - `!=` not equal

@@ -1,3 +1,10 @@
+---
+tags:
+  - R
+  - libraries
+  - programming
+---
+
 ### `ls()`
 Let's you check the contents of your workspace.
 ### `dir()`

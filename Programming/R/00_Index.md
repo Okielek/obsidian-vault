@@ -13,4 +13,4 @@
 - [[Logical_&_Comparison]]
 - [[Conditional_Statements]]
 - [[String_Manipulation]]
-- [[Functions]]
+- [[Programming/R/Concepts/Functions]]

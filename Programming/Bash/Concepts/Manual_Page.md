@@ -1,3 +1,11 @@
+---
+tags:
+  - bash
+  - programming
+  - help
+  - manual-page
+---
+
 ## `man`
 Gives you a manual page for a specified command. 
 ### Sections

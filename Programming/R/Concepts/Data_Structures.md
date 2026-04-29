@@ -1,3 +1,14 @@
+---
+tags:
+  - R
+  - data-structures
+  - programming
+  - list
+  - vector
+  - matrix
+  - dataframe
+---
+
 ## `c()`
 Initialize a vector in R. 
 #### additional info:

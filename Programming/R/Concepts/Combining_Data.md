@@ -1,3 +1,13 @@
+---
+tags:
+  - R
+  - data-manipluation
+  - programming
+  - cbind
+  - append
+---
+
+
 ### `cbind()/rbind()`
 Merges matrixes by column/row.
 **Usage Example:**

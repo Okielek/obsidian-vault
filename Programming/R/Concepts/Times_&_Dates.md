@@ -1,3 +1,11 @@
+---
+tags:
+  - R
+  - programming
+  - Time
+  - Dates
+---
+
 ## Packages
 * lubrdate
 * zoo

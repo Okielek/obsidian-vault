@@ -1,3 +1,10 @@
+---
+tags:
+  - R
+  - data-inspection
+  - programming
+---
+
 ### `summary()`
 Gives you a quick overview of the contents of a variable.
 ### `head()`
@@ -9,7 +16,7 @@ Shows you the strucure of given dataset.
 ## `print()`
 Prints the following value/string.
 ## `args()`
-Shows what arguments does the called function take. [[Functions#^function|Functions]]
+Shows what arguments does the called function take. [[Programming/R/Concepts/Functions#^function|Functions]]
 ## `typeof()`
 Returns datatype of a specified element.
 ## `is.type()`

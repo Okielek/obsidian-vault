@@ -1,3 +1,13 @@
+---
+tags:
+  - string-manipulation
+  - R
+  - programming
+  - regex
+  - fstring
+  - string
+---
+
 ## `paste()`
 Prints the output of whats inside the brackets however works more like an f"string in py. Automatically puts spaces between , if you want to avoid this use: `paste0()`. ^paste
 ### Usage example

@@ -1,3 +1,14 @@
+---
+tags:
+  - bash
+  - echo
+  - grep
+  - ls
+  - rm
+  - cd
+  - programming
+---
+
 ## `rm` 
 ### Important flags
 * `-i` — interactive (asks before deleting)
@@ -7,6 +18,7 @@
 ## `ls`
 ### Important flags
 * `-a` — shows all files (including hidden such as *.file.txt*)
+* `-l` — long listing, shows more info about files
 ## `cd`
 ### Important flags
 * `-` — last open directory
