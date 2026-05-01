@@ -32,6 +32,11 @@ dataset %>%
 dataset %>%
 	select(contains("string"))
 ```
+5. Select only numerical data
+```R
+dataset %>%
+	select(where(is.numeric)
+```
 #### `helpers`
 ?select_helpers
 1. **starts/ends_with()** find columns starting/ending with a string
@@ -132,3 +137,11 @@ dataset %>%
 	arrange(year) %>%
 	mutate(difference = popularity - lag(popularity))
 ```
+## `where()`
+Select columns for which this function returns **TRUE**.
+### Usage example:
+This keeps columns where is.numeric(column) is TRUE
+```R
+select(where(is.numeric))
+```
+

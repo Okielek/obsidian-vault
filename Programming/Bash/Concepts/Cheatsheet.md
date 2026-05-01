@@ -24,6 +24,7 @@ Bash always exists in some directory!
 * `rm` — removes file
 	* Usage: `rm <file>`
 	* See: [[Detailed_Info#`rm`|details]]
+* `rmdir` — removes a directory
 * `clear` — clears the terminal (CTRL+L)
 * `mkdir` — makes a directory
 	* Usage: `mkdir <directory>`
@@ -33,6 +34,7 @@ Bash always exists in some directory!
 * `chsh` — changes a users shell
 * `uniq` — returns only unique outputs
 * `wc` — counts words (stands for word count)
+* `xdg-open` — opens a file (usefull for pdfs)
 ### Files
 #### File Manipulation
 * `mv` — moves the file from *file1* to *file2*. It **overwrites** a file! Can be used to **rename** a file.
